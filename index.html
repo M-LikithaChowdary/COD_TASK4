@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">LearnHub</div>
+            <ul>
+                <li><a href="index.html" class="active">Dashboard</a></li>
+                <li><a href="courses.html">My Courses</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Progress Overview -->
+        <section class="progress-overview">
+            <h2>Your Progress</h2>
+            <div class="progress-stats">
+                <div class="stat-card">
+                    <h3>65%</h3>
+                    <p>Overall Progress</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%"></div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>12</h3>
+                    <p>Courses Completed</p>
+                </div>
+                <div class="stat-card">
+                    <h3>5</h3>
+                    <p>In Progress</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Player Section -->
+        <section class="video-section">
+            <h2>Current Lesson</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <div class="video-controls">
+                <button class="btn primary">Next Lesson</button>
+                <button class="btn secondary">Mark as Complete</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html> 
