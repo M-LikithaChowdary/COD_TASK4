@@ -14,3 +14,5 @@
 
 # OUTPUT OF THE TASK
 
+![Image](https://github.com/user-attachments/assets/8b5bc66e-e1f9-4d8b-87a9-f2b94201e5d6)
+![Image](https://github.com/user-attachments/assets/d44b11cd-0cbc-4887-9060-d7975bbc1b13)
